@@ -28,11 +28,20 @@
 
             var avg = countAvg([3, 6, 7, 1, 2, 8]);
             Console.WriteLine(avg);
+
+            var max = selectMax([3, 6, 7, 1, 2, 8]);
+            Console.WriteLine(max);
+
+
         }
     
         static double countAvg(int[] numbers)
         {
             return numbers.Average(x => x);
+        }
+        static int selectMax(int[] numbers)
+        {
+            return numbers.Max(x => x);
         }
     
     
