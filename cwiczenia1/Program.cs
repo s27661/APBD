@@ -24,6 +24,23 @@
 
             string p1string = p1.ToString();
             Console.WriteLine(p1string);
+
+
+            var avg = countAvg([3, 6, 7, 1, 2, 8]);
+            Console.WriteLine(avg);
         }
+    
+        static double countAvg(int[] numbers)
+        {
+            return numbers.Average(x => x);
+        }
+    
+    
+    
+    
+    
+    
+    
+    
     }
 }
