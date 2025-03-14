@@ -19,7 +19,12 @@ namespace cwiczenia1
             Name = name;
             Age = age;
         }
-    }
+        
+        public override string ToString()
+        {
+            return $"Person #{Id}\n\tName: {Name}\n\tAge: {Age}";
+        }
 
-    
+
+    }    
 }

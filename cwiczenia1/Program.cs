@@ -19,6 +19,11 @@
                     }
                 }
             }
+
+            var p1 = new Person(7, "Tomasz Hajto", 45);
+
+            string p1string = p1.ToString();
+            Console.WriteLine(p1string);
         }
     }
 }
