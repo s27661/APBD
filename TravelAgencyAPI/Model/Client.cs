@@ -8,6 +8,7 @@ public class Client
     public string Email { get; set; }
     public string Phone { get; set; }
     public string Pesel { get; set; }
+    public List<ClientTrip> ClientTrips { get; set; } = new();
     
     public string FullName => $"{FirstName} {LastName}";
 

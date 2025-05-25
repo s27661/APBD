@@ -8,7 +8,8 @@ public class Trip
     public DateTime DateFrom { get; set; }
     public DateTime DateTo { get; set; }
     public int MaxPeople { get; set; }
-
+    public List<Country> Countries { get; set; } = new();
+    public List<ClientTrip> ClientTrips { get; set; } = new();
     public Trip(int id, string name, string description, DateTime dateFrom, DateTime dateTo, int maxPeople)
     {
         Id = id;
